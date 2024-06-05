@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300;400;700;900&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@400;600;700&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&family=Spectral+SC:wght@500&display=swap");
+
+/* @layer 
+
+
+utilities {
+  .section-min-height {
+    min-height: calc(100vh - 162px);
+  }
+} */
+.bg-s {
+  clip-path: polygon(0% 29.8%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.speical-hover {
+  @apply transition-all  hover:outline hover:outline-[#081158] hover:bg-transparent hover:text-omar;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
